@@ -1,4 +1,3 @@
-import {useEffect, useState} from 'react'
 import styles from "./More.module.css"
 export default function Card({title, subtitle, info}) {
   return (
