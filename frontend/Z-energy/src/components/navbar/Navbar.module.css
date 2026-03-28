@@ -1,0 +1,84 @@
+.navBar{
+    border-bottom: 2px solid rgb(230, 230, 230);
+    display:flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.leftMainNav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.leftMainNav img{
+    width: 60px;
+    height: 60px;
+}
+.leftMainNav button{
+    padding: 10px;
+    height: 45px;
+    color: white;
+    border: none;
+    background-color: rgb(237, 86,14);
+    border-radius: 5px;
+}
+.rightMainNav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    padding: 20px;
+}
+
+.rightMainNav ul button{
+    color: white;
+    background-color: rgb(237, 86,14);
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+.login i{
+    margin-left: 10px;
+}
+
+.subNavbar ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* border: 1px black solid; */
+    gap: 20px;
+    text-decoration: none;
+    list-style: none;
+    padding: 8px 10px;
+}
+
+.dropdown {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  list-style: none;
+  padding: 10px;
+  margin-top: 3px;
+  z-index: 100; 
+  border-radius: 5px
+  /* border: 1px solid #ccc; */
+}
+
+.dropdown li {
+  position: relative;
+  list-style: none;
+ 
+}
+
+i{
+    color: rgb(237, 86,14);
+    background-color: white;
+    padding: 4px;
+    /* margin-top: 5px; */
+    margin-left: 5px;
+    /* border: 1px black solid; */
+    border-radius: 50%;
+}
