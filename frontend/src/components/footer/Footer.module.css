@@ -1,0 +1,71 @@
+/* Footer container */
+.footer {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr); /* 7 columns for your sections */
+  gap: 30px; /* space between columns */
+  padding: 40px;
+  /* font-family: Arial, sans-serif; */
+}
+
+/* Each footer column */
+.footer > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Footer headers */
+.footer h3 {
+  font-size: 16px;
+ 
+  color: rgb(31, 26, 108);
+  margin-bottom: 10px;
+}
+
+/* Footer lists */
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer ul li {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+/* Button styling */
+.footer button {
+  padding: 10px 20px;
+  background-color: rgb(237, 86,14);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Social icons list */
+
+.footerRightSide{
+  display: flex;
+  align-items: end;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+
+.icons i{
+  color: white;
+  background-color: rgb(237, 86, 14);
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}

@@ -1,0 +1,51 @@
+.hero{
+    background-image: url("/Z-Hero-image.jpg");
+    background-size: cover; 
+    height: 50vh;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    opacity: 0.9;
+
+}
+.mainInfo{
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    /* width: 200px; */
+  
+}
+.mainInfo h1{
+    color: white;
+    padding-bottom: 60px;
+    width: 250px;
+}
+
+.mainInfo button{
+    color: rgb(255, 255, 255);
+    width: 170px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 0; */
+    text-align: left;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(31, 26, 108);
+    cursor: pointer;
+}
+
+.mainInfo span{
+    background-color: white;
+    color: rgb(31,26,108);
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}

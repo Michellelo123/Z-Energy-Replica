@@ -1,9 +1,9 @@
 import {useState, useEffect} from 'react'
-import Navbar from '../navbar/Navbar'
-import Hero from './hero-section/Hero'
-import More from './more-section/More'
-import Footer from '../footer/Footer'
-import Subfooter from '../footer/Subfooter'
+import Navbar from '../../../../src/components/navbar/Navbar'
+import Hero from '../../../../src/components/homepage/hero-section/Hero'
+import More from '../../../../src/components/homepage/more-section/More'
+import Footer from '../../../../src/components/footer/Footer'
+import Subfooter from '../../../../src/components/footer/Subfooter'
 import axios from "axios"
 
 export default function Home() {
