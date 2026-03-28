@@ -1,0 +1,14 @@
+.subfooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-top: 1px rgb(231, 231, 231) solid;
+}
+
+.subfooter ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    /* padding: 20px; */
+}

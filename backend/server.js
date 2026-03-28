@@ -3,12 +3,18 @@ import dotenv from 'dotenv'
 import cors from 'cors'
 
 dotenv.config()
-const app = express
+
+import connectDB from "./homepage-backend/mongooseDB.js"
+import homeRouter from "./homepage-backend/home.js"
+
+const app = express()
 const PORT = process.env.PORT || 5000;
-app.use(cors())
+
+
+connectDB()
 app.use(express.json())
-
-
+app.use(cors())
+app.use("/api/home", homeRouter)
 app.listen(PORT, ()=>{
     try{
         console.log(`Listening on server ${PORT}`)
