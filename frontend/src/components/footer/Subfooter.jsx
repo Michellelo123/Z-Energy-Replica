@@ -4,7 +4,7 @@ export default function Subfooter() {
   return (
     <>
     <div className={styles.subfooter}>
-            <ul>
+        <ul>
             <li>Privacy</li>
             <li>Terms of use</li>
             <li>Fuel Safety Data Sheets</li>
