@@ -1,24 +1,219 @@
 .Login {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    width: auto;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f5f5f5;
+  font-family: "Segoe UI", sans-serif;
 }
 
 .loadingLogo {
-  animation: scaleUp 0.6s cubic-bezier(0.4, 0, 1, 1) forwards;
-  display: block;
-  margin: auto;
+  width: 120px;
+  animation: pulse 1.2s ease-in-out infinite;
 }
 
-@keyframes scaleUp {
-  from { transform: scale(0); }
-  to { transform: scale(4); }
+@keyframes pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%       { opacity: 0.6; transform: scale(0.95); }
 }
 
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+.LoginContainer {
+  width: 100%;
+  max-width: 390px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #fff;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+}
+
+.LoginHeader {
+  background: linear-gradient(135deg, #ff6a00 0%, #f97316 40%, #ffb347 100%);
+  padding: 48px 32px 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  
+}
+
+.Title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  width: 42px;
+  height: 42px;
+  filter: drop-shadow(0 2px 6px rgba(0,0,0,0.25));
+}
+
+.Title h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 3px;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.18);
+}
+
+.SubTitle {
+  color: rgba(255, 255, 255, 0.92);
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin: 0;
+  letter-spacing: 0.5px;
+  margin-bottom: 20px;
+}
+
+.Card {
+  padding: 28px 28px 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  flex: 1;
+  background: #fff;
+  border-radius: 22px 22px 0 0;
+  margin-top: -16px;
+}
+
+.CardTitle {
+  margin: 0 0 4px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.Input {
+  width: 100%;
+  padding: 14px 18px;
+  border: 1.5px solid #e5e7eb;
+  border-radius: 28px;
+  font-size: 0.95rem;
+  color: #1a1a1a;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  box-sizing: border-box;
+  background: #fafafa;
+}
+
+.Input::placeholder {
+  color: #b0b0b0;
+}
+
+.Input:focus {
+  border-color: #f97316;
+  box-shadow: 0 0 0 3px rgba(249, 115, 22, 0.15);
+  background: #fff;
+}
+
+.LoginBtn {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 28px;
+  background: linear-gradient(90deg, #d1d5db, #e5e7eb);
+  color: #9ca3af;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  transition: background 0.25s, color 0.25s, transform 0.15s;
+  margin-top: 4px;
+}
+
+.LoginBtn:hover {
+  background: linear-gradient(90deg, #f97316, #fb923c);
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+.LoginBtn:active {
+  transform: translateY(0);
+}
+
+.Divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #9ca3af;
+  font-size: 0.85rem;
+  margin: 4px 0;
+}
+
+.Divider::before,
+.Divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #e5e7eb;
+}
+
+.NoAccount {
+  margin: 0;
+  font-size: 0.88rem;
+  color: #f97316;
+  font-weight: 500;
+}
+
+.SocialButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.SocialBtn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 13px 20px;
+  border: 1.5px solid #f97316;
+  border-radius: 28px;
+  background: #fff;
+  color: #f97316;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.15s;
+  box-sizing: border-box;
+}
+
+.SocialBtn:hover {
+  background: #fff7ed;
+  transform: translateY(-1px);
+}
+
+.SocialBtn:active {
+  transform: translateY(0);
+}
+
+.SocialIcon {
+  font-size: 1.25rem;
+  flex-shrink: 0;
+  color: #f97316;
+}
+
+.Facebook {
+  color: #f97316;
+}
+
+@media (max-width: 480px) {
+  .Login {
+    align-items: flex-start;
+    background: #fff;
+  }
+
+  .LoginContainer {
+    max-width: 100%;
+    box-shadow: none;
+  }
 }
