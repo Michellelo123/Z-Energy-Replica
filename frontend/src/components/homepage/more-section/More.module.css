@@ -6,6 +6,11 @@
     padding: 30px;
     background: rgb(246,246,246);
     box-shadow: 0px 4px 4px 0px #00000040;
+    transition: transform 0.3s ease;
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 
 }
 .title{

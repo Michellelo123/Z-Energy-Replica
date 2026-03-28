@@ -69,3 +69,15 @@
   justify-content: center;
   border-radius: 50%;
 }
+
+.footerLinks li:hover{
+ text-decoration: underline;
+ cursor: pointer;
+}
+
+.icons i:hover,
+.footerRightSide button:hover,
+.footerRightSide img:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}

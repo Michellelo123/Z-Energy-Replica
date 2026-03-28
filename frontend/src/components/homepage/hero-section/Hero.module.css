@@ -24,8 +24,9 @@
 
 .mainInfo button{
     color: rgb(255, 255, 255);
-    width: 170px;
+    width: 200px;
     padding: 5px 10px;
+    font-size: 16px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -34,9 +35,13 @@
     border-radius: 20px;
     border: none;
     background-color: rgb(31, 26, 108);
-    cursor: pointer;
+    transition: transform 0.3s ease;
+    /* cursor: pointer; */
 }
-
+.mainInfo button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
 .mainInfo span{
     background-color: white;
     color: rgb(31,26,108);
