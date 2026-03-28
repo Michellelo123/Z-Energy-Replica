@@ -12,3 +12,8 @@
     gap: 20px;
     /* padding: 20px; */
 }
+
+.subfooter ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
