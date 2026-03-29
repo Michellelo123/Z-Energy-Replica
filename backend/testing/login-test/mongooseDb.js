@@ -6,7 +6,7 @@ dotenv.config({ path: `${process.cwd()}/.env` });
 
 beforeAll(async () => {
   try {
-    await mongoose.connect(process.env.MONGODB_URI);
+    await mongoose.connect(process.env.MONGODB_TESTURI);
     console.log("mongoDB test connection successful");
   } catch (err) {
     console.log("unable to connect to mongoDB test", err);
