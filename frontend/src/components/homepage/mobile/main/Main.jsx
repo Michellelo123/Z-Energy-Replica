@@ -5,6 +5,7 @@ export default function Main() {
     <>
     <div className={styles.main}>
         <div className={styles.cards}>
+            <img src="/z-coin.png" alt="rewards-icon" width="40px" height="40px"/>
             <h4>Z Rewards</h4>
             <p>See my Rewards Points</p>
             <i className={`fa-solid fa-arrow-right ${styles.arrow}`}></i>
@@ -15,12 +16,12 @@ export default function Main() {
             <i className={`fa-solid fa-arrow-right ${styles.arrow}`}></i>
         </div>
         <div className={styles.cards}>
-            <i class="fa-solid fa-utensils"></i>
+            <img src="/fuel.svg" alt="fuel-icon"width="40px" height="40px"/>
             <h4>Pre-buy fuel</h4>
             <i className={`fa-solid fa-arrow-right ${styles.arrow}`}></i>
         </div>
         <div className={styles.cards}>
-            <i class="fa-solid fa-utensils"></i>
+            <img src="evcharge.svg" alt="ev-charger-icon" width="40px" height="40px"/>
             <h4>Charge my EV</h4>
             <i className={`fa-solid fa-arrow-right ${styles.arrow}`}></i>
         </div>

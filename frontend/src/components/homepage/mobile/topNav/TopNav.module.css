@@ -7,3 +7,7 @@
     padding: 20px;
     /* border-bottom: black solid 1px; */
 }
+
+.topNav i{
+    font-size: 25px;
+}

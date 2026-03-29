@@ -1,9 +1,10 @@
 .bottomNav{
     background: linear-gradient(to right, #ED560E, #FFDD00);
+    margin-top: -20px;
 }
 .navbar{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 20px;
     gap: 40px;
     color: white;
