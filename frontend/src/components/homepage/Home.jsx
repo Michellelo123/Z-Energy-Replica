@@ -5,6 +5,8 @@ import More from './more-section/More'
 import Footer from '../footer/Footer'
 import Subfooter from '../footer/Subfooter'
 import axios from "axios"
+import styles from "./Home.module.css"
+import Mobile from "./mobile/Mobile"
 
 export default function Home() {
   const [cards, setCards] = useState([])
@@ -24,11 +26,17 @@ export default function Home() {
   
   return (
     <>
+      {/* <div className={styles.home}>
         <Navbar/>
-        <Hero/>
-        <More cards={cards}/>
-        <Footer/>
-        <Subfooter/>
+          <Hero/>
+          <More cards={cards}/>
+          <Footer/>
+          <Subfooter/>
+      </div> */}
+      <div className={styles.mobile}>
+        <Mobile/>
+      </div>
+          
 
     </>
     
