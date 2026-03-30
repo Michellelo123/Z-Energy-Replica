@@ -1,0 +1,17 @@
+.home{
+    display:block;
+}
+.mobile{
+    display:none;
+}
+
+
+@media (max-width: 480px){
+    .home{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+}
+

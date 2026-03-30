@@ -1,7 +1,7 @@
 .hero{
     background-image: url("/Z-Hero-image.jpg");
     background-size: cover; 
-    height: 50vh;
+    height: 75vh;
     background-position: center;
     display: flex;
     justify-content: flex-start;

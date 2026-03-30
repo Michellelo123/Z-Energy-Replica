@@ -26,13 +26,13 @@ export default function Home() {
   
   return (
     <>
-      {/* <div className={styles.home}>
+      <div className={styles.home}>
         <Navbar/>
           <Hero/>
           <More cards={cards}/>
           <Footer/>
           <Subfooter/>
-      </div> */}
+      </div>
       <div className={styles.mobile}>
         <Mobile/>
       </div>

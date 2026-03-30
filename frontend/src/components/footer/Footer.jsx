@@ -63,7 +63,8 @@ export default function Footer() {
             </ul>
         </div>
         <div className={styles.footerRightSide}>
-            <button>Contact us
+            <button className={styles.contactBtn}>
+                <p>Contact us</p>
                 <i class="fa-solid fa-location-dot"></i>
             </button>
             <div className={styles.icons}>

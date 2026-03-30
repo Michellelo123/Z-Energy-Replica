@@ -17,3 +17,8 @@
     text-decoration: underline;
     cursor: pointer;
 }
+
+.privacy{
+    display: flex;
+    align-items: center;
+}

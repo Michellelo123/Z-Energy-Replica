@@ -10,9 +10,9 @@ export default function Subfooter() {
             <li>Fuel Safety Data Sheets</li>
             <li>Investor relations</li>
         </ul>
-        <div>
+        <div className={styles.privacy}>
             <p>&copy; Z Energy Limited. All trademarks are used under license  </p>
-            <img src="/privacy-img.png" alt="" width="40px"/>
+            <img src="/privacy-img.png" alt="" width="30px"/>
         </div>
 
     </div>

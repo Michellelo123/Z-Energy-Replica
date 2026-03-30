@@ -1,12 +1,15 @@
 .bottomNav{
     background: linear-gradient(to right, #ED560E, #FFDD00);
-    margin-top: -20px;
+    margin-top: -20px auto 0 auto;
+    max-width: 480px;
+    min-height: 70px;
 }
 .navbar{
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     padding: 20px;
-    gap: 40px;
+    gap: 20px;
     color: white;
 
 }
@@ -19,7 +22,7 @@
 }
 
 .navbar li p{
-    font-size: 12px;
+    font-size: 10px;
     margin-top: 6px;
     
 }
