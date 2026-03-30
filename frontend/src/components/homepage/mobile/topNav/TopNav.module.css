@@ -5,6 +5,10 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px;
+    width: 100%;
+    max-width: 480px;
+    margin:0 auto;
+    min-height: 68px;
     /* border-bottom: black solid 1px; */
 }
 
