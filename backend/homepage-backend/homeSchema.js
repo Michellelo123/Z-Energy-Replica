@@ -10,7 +10,7 @@ const HomeSchema = new mongoose.Schema({
     info: String
 })
 
-const Home = mongoose.model("Home", HomeSchema, "card-info")
+const Home = mongoose.model("Home", HomeSchema, "card-info");
 
 router.get("/", async (req, res)=>{
     try{
@@ -20,5 +20,4 @@ router.get("/", async (req, res)=>{
         console.log("failed to obtain data", err);
     }
 })
-
-export default router
+export {Home, router} 
