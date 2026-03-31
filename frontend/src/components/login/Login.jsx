@@ -1,10 +1,18 @@
+// Icons
 import { FaGoogle, FaFacebook, FaApple } from "react-icons/fa";
 import Logo from "../../assets/logo.svg";
+
+// Styles
 import styles from "./Login.module.css";
+
+// Supabase
+import { supabase } from "./Supabase.Jsx";
+
+// React
 import { useEffect, useState } from "react";
-import { supabase } from "./Supabase.jsx";
 import { useNavigate } from "react-router-dom";
 
+// Login component
 function Login() {
   const navigate = useNavigate();
 
