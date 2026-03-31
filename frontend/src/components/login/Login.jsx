@@ -6,7 +6,7 @@ import Logo from "../../assets/logo.svg";
 import styles from "./Login.module.css";
 
 // Supabase
-import { supabase } from "./Supabase.Jsx";
+import { supabase } from "./Supabase.jsx";
 
 // React
 import { useEffect, useState } from "react";
