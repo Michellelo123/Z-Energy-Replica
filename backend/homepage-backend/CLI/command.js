@@ -20,6 +20,8 @@ export const listZData= async()=>{
 export const seedData = async()=>{
      try{
         await connectDB()
+        await Home.deleteMany()
+        console.log("Cleared existing data")
         const insertedData = await Home.insertMany(data)
         console.log("Data has been inserted")
     }catch(err){
