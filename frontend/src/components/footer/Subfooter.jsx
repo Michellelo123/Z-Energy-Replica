@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from "./Subfooter.module.css"
+
 export default function Subfooter() {
   return (
     <>
@@ -12,7 +13,7 @@ export default function Subfooter() {
         </ul>
         <div className={styles.privacy}>
             <p>&copy; Z Energy Limited. All trademarks are used under license  </p>
-            <img src="/privacy-img.png" alt="" width="30px"/>
+            <img src="/home-images/privacy-img.png" alt="" width="30px"/>
         </div>
 
     </div>

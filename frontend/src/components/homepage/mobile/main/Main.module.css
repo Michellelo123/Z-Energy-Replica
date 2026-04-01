@@ -1,31 +1,26 @@
 .main{
+    flex: 1;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 15px 2px;
+    gap: 15px 5px;
     justify-items: center;
     border-radius: 40px;
     background-color: rgb(255, 255, 255);
-    padding-top: 25px;
-    padding-bottom: 30px;
+    padding: 25px 0;
     width: 100%;
-    max-width: 480px;
-    /* for overlapping */
+    max-width: 830px;
     margin-top: -35px;
-    min-height: 200px;
 
 }
 
 .cards{
-    /* border: 2px solid black; */
     border-radius: 10px;
-    
     padding: 12px;
-    padding-bottom: 55px;
     width: 75%;
-    min-height: 130px;
+    height: auto;
+    max-height: 200px;
     display: flex;
     flex-direction: column;
-    /* justify-content: flex-start; */
     color: rgb(31, 26, 108);
     background-color: rgb(242, 241, 255);
     position: relative;
@@ -49,25 +44,24 @@
 .cards i:nth-child(1){
     color: rgb(237, 86,14);
     font-size: 30px;
-    /* border: 1px solid black; */
 } 
 .cards h4{
     margin-top: 15px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .cards p{
-    font-size: 11px;
+    font-size: 16px;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 430px) {
 
   .cards h4 {
-      font-size: 14px;
+      font-size: 18px;
   }
 
   .cards p {
-      font-size: 10px;
+      font-size: 13px;
   }
 
   .arrow {
@@ -76,3 +70,4 @@
   }
 
 }
+

@@ -1,13 +1,11 @@
 /* Footer container */
 .footer {
   display: grid;
-  grid-template-columns: repeat(7, 1fr); /* 7 columns for your sections */
-  gap: 30px; /* space between columns */
+  grid-template-columns: repeat(7, 1fr); 
+  gap: 30px; 
   padding: 40px;
-  /* font-family: Arial, sans-serif; */
 }
 
-/* Each footer column */
 .footer > div {
   display: flex;
   flex-direction: column;

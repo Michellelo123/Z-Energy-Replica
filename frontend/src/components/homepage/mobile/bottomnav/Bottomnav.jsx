@@ -13,7 +13,7 @@ export default function Bottomnav() {
                 <p>Fuel Map</p>
             </li>
             <li>
-                <img src="/bi_upc-scan.svg" alt="barcode"></img>
+                <img src="/home-images/barcode.svg" alt="barcode"></img>
                 <p>Z Card</p>
             </li>
             <li>

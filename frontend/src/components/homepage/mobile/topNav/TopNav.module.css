@@ -6,10 +6,9 @@
     justify-content: space-between;
     padding: 20px;
     width: 100%;
-    max-width: 480px;
+    max-width: 830px;
     margin:0 auto;
     min-height: 68px;
-    /* border-bottom: black solid 1px; */
 }
 
 .topNav i{

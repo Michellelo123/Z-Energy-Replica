@@ -4,7 +4,7 @@ export default function Card({title, subtitle, info}) {
     <div className={styles.card}>
         <div className={styles.cardTitle}>
             <h3>{title}</h3>
-        <i class="fa-solid fa-arrow-right"></i>
+            <i class="fa-solid fa-arrow-right"></i>
         </div>
         
         <div className={styles.cardInfo}>

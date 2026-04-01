@@ -3,33 +3,30 @@
     color: white;
     padding-bottom: 70px;
     width: 100%;
-    max-width: 480px;
-    margin: 0 auto;
-    min-height: 250px;
+    max-width: 830px;
+    display: flex;
+    flex-direction: column;
 }
 
 .userDisplay h2{
-    /* margin-left: 20px; */
-    margin: 0px 20px 20px 20px;
+    margin: 0px 20px 20px 30px;
     padding-top: 50px;
     padding-bottom: 20px;
-    padding-left: 40px;
 }
 
 .userDisplay button{
+    display: flex;
+    justify-content: space-between;
     color: white;
     background-color: rgb(31, 26, 108);
     border: none;
     padding: 10px 16px;
-    border-radius: 16px;
+    border-radius: 20px;
     /* margin-top: 20px; */
-    margin-left: 60px;
+    margin-left: 30px;
     display: flex;
     align-items: center;
-    /* padding-left: 40px; */
-    
+    width: 50%;
+    max-width: 300px;
 }
 
-.userDisplay i{
-    margin-left: 10px;
-}

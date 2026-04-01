@@ -3,15 +3,31 @@
 }
 .mobile{
     display:none;
+    min-height: 100dvh; /*dynamic view height */
 }
 
-
-@media (max-width: 480px){
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container hr{
+    width: 80%;
+    border: 0.5px solid rgb(228, 226, 226);
+}
+@media (max-width: 830px){
     .home{
         display: none;
     }
-    .mobile{
-        display: block;
+    .mobile {
+    display: block;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    }
+
+    .mobile main {
+        flex: 1; /* stretches main content between top and bottom nav */
     }
 }
 

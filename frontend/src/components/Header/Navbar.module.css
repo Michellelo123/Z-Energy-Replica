@@ -1,0 +1,48 @@
+.navBar{
+    border-bottom: 2px solid rgb(230, 230, 230);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-family: "Inter";
+}
+
+.leftMainNav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 10px;
+}
+
+.leftMainNav img{
+    width: 60px;
+    height: 60px;
+}
+.leftMainNav button{
+    padding: 10px;
+    height: 45px;
+    color: white;
+    border: none;
+    background-color: rgb(237, 86,14);
+    border-radius: 5px;
+}
+.rightMainNav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    padding: 20px;
+}
+
+.rightMainNav ul button{
+    color: white;
+    background-color: rgb(237, 86,14);
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+.login i{
+    margin-left: 10px;
+}
+
