@@ -2,8 +2,8 @@ import {useState, useEffect} from 'react'
 import Navbar from '../Header/Navbar'
 import Hero from './hero-section/Hero'
 import More from './more-section/More'
-import Footer from '../Footer/Footer'
-import Subfooter from '../Footer/Subfooter'
+import Footer from '../footer/Footer'
+import Subfooter from '../footer/Subfooter'
 import axios from "axios"
 import styles from "./Home.module.css"
 import Mobile from "./mobile/Mobile"
