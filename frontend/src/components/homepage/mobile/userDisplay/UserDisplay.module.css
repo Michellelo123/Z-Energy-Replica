@@ -28,5 +28,11 @@
     align-items: center;
     width: 50%;
     max-width: 300px;
+    transition: opacity 0.3s ease;
 }
 
+.userDisplay button:active,
+.userDisplay button:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}

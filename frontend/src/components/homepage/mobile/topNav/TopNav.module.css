@@ -13,4 +13,11 @@
 
 .topNav i{
     font-size: 25px;
+    transition: transform 0.3s;
+}
+
+.topNav i:hover ,
+.topNav button:active{
+    cursor: pointer;
+    transform: scale(1.2);
 }

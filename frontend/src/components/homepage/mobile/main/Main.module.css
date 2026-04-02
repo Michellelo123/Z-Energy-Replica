@@ -24,6 +24,7 @@
     color: rgb(31, 26, 108);
     background-color: rgb(242, 241, 255);
     position: relative;
+    transition: transform 0.3s ease;
 }
 
 .arrow{
@@ -69,5 +70,11 @@
       height: 26px;
   }
 
+}
+
+.cards:active,
+.cards:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
 

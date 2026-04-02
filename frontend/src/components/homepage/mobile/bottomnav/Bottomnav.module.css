@@ -20,6 +20,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center; 
+    transition: transform 0.3s ease;
+
 }
 
 .navbar li p{
@@ -31,3 +33,10 @@
 .navbar li i{
     font-size: 24px;
 }
+
+.navbar li:active, 
+.navbar li:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+

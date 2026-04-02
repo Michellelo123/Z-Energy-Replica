@@ -12,13 +12,13 @@
 .mainInfo{
     display: flex;
     flex-direction: column;
-    padding-left: 80px;
+    padding-left: 100px;
   
 }
 .mainInfo h1{
     color: white;
     padding-bottom: 60px;
-    width: 250px;
+    /* width: 250px; */
 }
 
 .mainInfo button{
