@@ -4,6 +4,7 @@ import mongoose from "mongoose"
 // import Home from "./mongooseDB.js"
 //defining schema and model 
 const router = express.Router()
+
 const HomeSchema = new mongoose.Schema({
     title: String,
     subtitle: String,

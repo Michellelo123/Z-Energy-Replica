@@ -13,7 +13,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-   
 
 }
 .dropdownArrow{
@@ -58,19 +57,7 @@
     color: rgb(237, 86,14);
     cursor: pointer; 
 }
-.leftMainNav li button:hover,
-.login button:hover{
-    cursor: pointer;
-    opacity: 0.7;
-}
 
-.leftMainNav li:nth-child(3):hover,
-.rightMainNav ul li:nth-child(1):hover,
-.rightMainNav ul li:nth-child(2):hover,
-.rightMainNav ul li:nth-child(3):hover{
-    color: rgb(237, 86,14);
-    cursor: pointer;
-}
 
 .subnavList {
     text-decoration: none;

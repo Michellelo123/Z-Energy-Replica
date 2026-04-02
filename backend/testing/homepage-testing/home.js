@@ -4,7 +4,7 @@ const app = express()
 
 app.get("/home", async (req, res)=>{
     try{
-        const data = await Home.findOne({})
+        const data = await Home.find({})
         res.json(data)
     }catch(err){
         console.log("failed to obtain data", err);
