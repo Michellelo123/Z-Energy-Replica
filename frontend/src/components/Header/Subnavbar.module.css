@@ -1,3 +1,6 @@
+.subNavbar{
+     border-top: 2px solid rgb(230, 230, 230);
+}
 .subNavbar ul{
     display: flex;
     justify-content: flex-start;
