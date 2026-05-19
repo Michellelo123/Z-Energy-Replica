@@ -1,4 +1,4 @@
-# Mission 5 Phase 2 — T5 (Ammon, Kayde, Michelle, Neha)
+# Mission 5 Phase 2 — T5 ( Kayde, Michelle)
 
 A fullstack web application with a **React (Vite)** frontend and **Node.js / Express** backend, connected to **MongoDB**, and fully containerised with Docker.
 
