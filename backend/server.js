@@ -13,7 +13,9 @@ const PORT = process.env.PORT || 5000;
 
 connectDB()
 app.use(express.json())
-app.use(cors())
+app.use(cors({
+    origin: "https://z-energy-replica.vercel.app/"
+}))
 app.use("/api/home", router)
 app.listen(PORT, ()=>{
     try{
